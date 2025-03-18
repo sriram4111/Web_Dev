@@ -1,0 +1,179 @@
+body{
+  background-color: #ccc;
+}
+.store_name{
+  background-color:rgb(154, 25, 240);
+  color:white;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 800;
+  padding:10px 0px;
+}
+.logo{
+  display: inline-block;
+  text-align:left;
+  position: absolute;
+  left:50px;
+  top:16px;
+  border-radius: 100px;
+}
+.login{
+  position: absolute;
+  left:1750px;
+  top:60px;
+}
+.sign-up{
+  position: absolute;
+  left:1650px;
+  top:60px;
+}
+
+.btn-login{
+  width: 150px;
+  height: 50px;
+  border:none;
+}
+.sign-up{
+  width: 100px;
+  height: 50px;
+  border:none;
+}
+
+.store_name::selection{
+  color: black;
+}
+.store_name::first-letter{
+  color:crimson;
+  font-size: 90px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+.store_name::first-letter::selection{
+  color:chartreuse;
+}
+
+.ram{
+  position: absolute;
+  left:1830px;
+  top:60px;
+
+}
+
+.images{
+  background-color:rgb(255, 255, 255);
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height: 320px;
+  
+}
+.pic{
+  text-align: center;
+  font-size:x-large;
+  font-weight: 800;
+  font-family: Roboto;
+  transition: all 1s ease-in 0;
+
+}
+.body_img{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  height: 100;
+}
+.img_con{
+  width: 500px;
+  height: 300px;
+}
+.middle_content{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Roboto;
+  text-align: center;
+  padding-top: 25px;
+}
+.middle_content::first-letter{
+
+  color:crimson;
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Roboto;
+}
+
+th {
+  background-color: rgb(154, 25, 240);
+  font-weight: 500;
+  font-family: Roboto;
+  text-align: center;
+}
+.content{
+  background-color: white;
+}
+.footer{
+  background-color: black;
+  color:white;
+  text-align: center;
+  font-size: 22px;
+  font-family: Roboto;
+  font-weight: 400;
+  padding:30px;
+}
+
+.footer::selection{
+  color:blueviolet;
+}
+
+@media screen and (min-width:425px) and (max-width:768px){
+
+  body{
+    background-color: cadetblue;
+  }
+  th,tr{
+    color:white;
+  }
+  .logo{
+    display: inline-block;
+    text-align:left;
+    position: absolute;
+    left:600px;
+    top:6px;
+    border-radius: 50px;
+  }
+
+}
+@media screen and (max-width:425px){
+
+  body{
+    background-color: lightpink;
+    color:black;
+  }
+  .logo{
+    display: inline-block;
+    text-align:left;
+    position: absolute;
+    left:400px;
+    top:6px;
+    border-radius: 50px;
+  }
+}
+.pic:hover{
+  color:rgb(154, 25, 240);
+}

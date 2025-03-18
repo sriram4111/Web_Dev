@@ -29,8 +29,3 @@ To view this demo website locally:
 This website is a static demo intended to showcase a basic fashion store layout. It can be used as a template or reference for building a more complex e-commerce website and in further I will try to build more e-commerce websites!
  
 
-## Screenshot
-
-![Fashion Store Demo Website Screenshot](<path_to_your_screenshot_image>)  
-*(Replace `<path_to_your_screenshot_image>` with the actual path or URL to your screenshot)*
-
